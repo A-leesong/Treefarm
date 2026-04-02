@@ -1,0 +1,23 @@
+[
+  {
+    "id": 7,
+    "title": "Red ornament SET",
+    "imgUrl": "img-1/ornament/redO.jpg",
+    "content": "포인트를 줄 수 있는 레드 오너먼트 SET",
+    "price": 20000
+  },
+  {
+    "id": 8,
+    "title": "Silver ornament SET",
+    "imgUrl": "img-1/ornament/silverO.jpg",
+    "content": "포인트를 줄 수 있는 실버 오너먼트 SET",
+    "price": 20000
+  },
+  {
+    "id": 9,
+    "title": "Snow ornament SET",
+    "imgUrl": "img-1/ornament/snowO.jpg",
+    "content": "포인트를 줄 수 있는 눈꽃 오너먼트 SET",
+    "price": 20000
+  }
+]

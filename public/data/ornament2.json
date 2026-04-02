@@ -1,0 +1,23 @@
+[
+  {
+    "id": 4,
+    "title": "Blue ornament SET",
+    "imgUrl": "/img-1/ornament/blueO.jpg",
+    "content": "포인트를 줄 수 있는 블루 오너먼트 SET",
+    "price": 20000
+  },
+  {
+    "id": 5,
+    "title": "Gold ornament SET",
+    "imgUrl": "/img-1/ornament/goldO.jpg",
+    "content": "포인트를 줄 수 있는 골드 오너먼트 SET",
+    "price": 20000
+  },
+  {
+    "id": 6,
+    "title": "Purple ornament SET",
+    "imgUrl": "/img-1/ornament/purpleO.jpg",
+    "content": "포인트를 줄 수 있는 퍼플 오너먼트 SET",
+    "price": 20000
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tree/static/css/main.9612c8cf.css",
+    "main.js": "/tree/static/js/main.66798d91.js",
+    "static/media/Pretendard-Bold.woff": "/tree/static/media/Pretendard-Bold.1f1dbbbf311ffffcc770.woff",
+    "static/media/Pretendard-Light.woff": "/tree/static/media/Pretendard-Light.7d1a33b829142e833fb9.woff",
+    "static/media/Pretendard-Regular.woff": "/tree/static/media/Pretendard-Regular.303253288b0ba99db532.woff",
+    "static/media/slick.svg": "/tree/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tree/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tree/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tree/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/tree/index.html",
+    "main.9612c8cf.css.map": "/tree/static/css/main.9612c8cf.css.map",
+    "main.66798d91.js.map": "/tree/static/js/main.66798d91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9612c8cf.css",
+    "static/js/main.66798d91.js"
+  ]
+}

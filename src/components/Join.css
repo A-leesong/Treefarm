@@ -1,0 +1,126 @@
+/* Join container */
+.Join-container {
+  width: 100%;
+  min-height: 100vh; /* 화면 전체 높이 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  background-position: 80%;
+
+}
+.Join-container h2 {
+  margin-bottom: 35px;
+}
+.Join-container img {
+  background-size: cover;           /* 영역 꽉 채우기 */
+  background-position: 50% 20%;     /* 가로 50%, 세로 20% 위치 */
+  background-repeat: no-repeat;     /* 반복 금지 */
+}
+
+/* 폼 스타일 */
+.Join-form {
+  width: 90%;            /* 부모 폭의 90% */
+  max-width: 800px;      /* 최대 폭 */
+  min-width: 300px;      /* 최소 폭 */
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  box-sizing: border-box;
+}
+
+/* 계정 정보, 개인정보 섹션 */
+.Join-section {
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.Join-section h4 {
+  display: center;       /* 텍스트 폭만큼 차지 */
+  margin: 15px 0 15px 0;
+  color: #333;
+  position: relative;
+  padding-bottom: 5px;
+  text-align: center;
+  
+
+
+}
+.Join-section h4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  ;
+}
+
+
+/* 라벨과 입력칸을 세로로 */
+.Join-form .form-group {
+  display: flex;
+  flex-direction: column; /* 라벨 위, 입력 아래 */
+  margin-bottom: 15px;
+}
+
+/* 라벨 */
+.Join-form .form-group label {
+  margin-bottom: 5px; /* 입력칸과 간격 */
+  font-weight: bold;
+  color: #333;
+  width: auto;        /* 폭 자동 */
+  text-align: left;   /* 왼쪽 정렬 */
+}
+
+/* 입력칸 */
+.Join-form .form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* 버튼 */
+.Join-form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Join-form button:hover {
+  background-color: #550000;
+}
+
+/* 작은 화면 대응 */
+@media screen and (max-width: 400px) {
+  .Join-form {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .Join-form input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .Join-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
